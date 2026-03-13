@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yummy Food App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🍔 YummyApp</div>
+    <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#cart">Cart</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Delicious Food Delivered!</h1>
+    <p>Choose your favorite meals and add to cart.</p>
+</section>
+
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-cards" id="menu-cards">
+        <!-- JS will inject menu items here -->
+    </div>
+</section>
+
+<section class="cart" id="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items" id="cart-items">
+        <p>No items in cart yet.</p>
+    </div>
+    <h3>Total: $<span id="total">0</span></h3>
+    <button id="checkout-btn">Checkout</button>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Yummy Food App</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
